@@ -10,22 +10,46 @@ import UIKit
 class LoginViewController: UIViewController {
 
     
-    @IBAction func loginFacebook() {
-    }
-    @IBAction func LoginApple(_ sender: Any) {
-        print("Login con Apple")
-    }
-    @IBAction func loginEmail(_ sender: UIButton) {
-        print("Login con Email")
-        performSegue(withIdentifier: "signInSegue", sender: nil)
-    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func facebookButton(_ sender: Any) {
+        print("Facebook")
+    }
+    
+    @IBAction func appleButton(_ sender: Any) {
+        print("Apple")
+    }
+    @IBAction func emailButton(_ sender: Any) {
+        print("Email")
+        performSegue(withIdentifier: "signInSegue", sender: nil)
+        /*
+        let storyboard = UIStoryboard(name: "BodyStory", bundle: nil)
+        let viewControlletStory =  storyboard.instantiateInitialViewController()
+        navigationController?.pushViewController(viewControlletStory!, animated: true)
+        */
+    }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        print("No pueda pasar")
+        return false
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let segueFilter = segue.identifier, segueFilter.elementsEqual("segueFacebook") {
+            
+        }else {
+            var destino =  segue.destination as! SignInViewController
+            destino.claveSecreta = "DON PEPE"
+        }
+            
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893D6EBA285E87E4001B878F /* BodyStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893D6EB9285E87E4001B878F /* BodyStory.storyboard */; };
 		89789499285D2DF700F3C6D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89789498285D2DF700F3C6D6 /* AppDelegate.swift */; };
 		8978949B285D2DF700F3C6D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978949A285D2DF700F3C6D6 /* SceneDelegate.swift */; };
 		897894A0285D2DF700F3C6D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8978949E285D2DF700F3C6D6 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		893D6EB9285E87E4001B878F /* BodyStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BodyStory.storyboard; sourceTree = "<group>"; };
 		89789495285D2DF700F3C6D6 /* ProyectoEjemplo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoEjemplo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89789498285D2DF700F3C6D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8978949A285D2DF700F3C6D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				897894AD285D2E3500F3C6D6 /* ViewController */,
 				897894AC285D2E1E00F3C6D6 /* Common */,
 				8978949E285D2DF700F3C6D6 /* Main.storyboard */,
+				893D6EB9285E87E4001B878F /* BodyStory.storyboard */,
 				897894A1285D2DF800F3C6D6 /* Assets.xcassets */,
 				897894A3285D2DF800F3C6D6 /* LaunchScreen.storyboard */,
 				897894A6285D2DF800F3C6D6 /* Info.plist */,
@@ -146,6 +149,7 @@
 			files = (
 				897894A5285D2DF800F3C6D6 /* LaunchScreen.storyboard in Resources */,
 				897894A2285D2DF800F3C6D6 /* Assets.xcassets in Resources */,
+				893D6EBA285E87E4001B878F /* BodyStory.storyboard in Resources */,
 				897894A0285D2DF700F3C6D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
